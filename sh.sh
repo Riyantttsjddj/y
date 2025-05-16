@@ -1,7 +1,6 @@
 #!/bin/bash
 
-CONFIG="/usr/local/etc/v2ray/config.json"
-
+CONFIG="/etc/v2ray/config.json"
 if [[ ! -f "$CONFIG" ]]; then
   echo "❌ Config tidak ditemukan di $CONFIG"
   exit 1
